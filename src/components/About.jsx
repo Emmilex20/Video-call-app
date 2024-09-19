@@ -1,61 +1,48 @@
-import React from 'react'
+import React from 'react';
 
 const About = () => {
     return (
-        <section className="bg-white py-8">
-          <div className="container py-8 px-6 mx-auto">
-            <a
-              className="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl mb-8"
-              href="#"
-            >
-              About
-            </a>
-    
-            <p className="mt-8 mb-8">
-              This template is inspired by the stunning nordic minimalist design -
-              in particular:
-              <br />
-              <a
-                className="text-gray-800 underline hover:text-gray-900"
-                href="#"
-              >
-                Demo Theme
-              </a>{" "}
-              created by{" "}
-              <a
-                className="text-gray-800 underline hover:text-gray-900"
-                href="W"
-              >
-                https://example.com/
-              </a>{" "}
-              and{" "}
-              <a
-                className="text-gray-800 underline hover:text-gray-900"
-                href="https://www.metricdesign.no/"
-                target="_blank"
-              >
-                https://www.examplevideo.net/
-              </a>
-            </p>
-    
-            <p className="mb-8">
-              Lorem ipsum dolor sit amet, consectetur <a href="#">random link</a>{" "}
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua. Vel risus commodo viverra maecenas accumsan lacus vel
-              facilisis volutpat. Vitae aliquet nec ullamcorper sit. Nullam eget
-              felis eget nunc lobortis mattis aliquam. In est ante in nibh mauris.
-              Egestas congue quisque egestas diam in. Facilisi nullam vehicula ipsum
-              a arcu. Nec nam aliquam sem et tortor consequat. Eget mi proin sed
-              libero enim sed faucibus turpis in. Hac habitasse platea dictumst
-              quisque. In aliquam sem fringilla ut. Gravida rutrum quisque non
-              tellus orci ac auctor augue mauris. Accumsan lacus vel facilisis
-              volutpat est velit egestas dui id. At tempor commodo ullamcorper a.
-              Volutpat commodo sed egestas egestas fringilla. Vitae congue eu
-              consequat ac.
-            </p>
-          </div>
-        </section>
-      );
-}
+        <section className="bg-gray-100 py-12">
+            <div className="container max-w-4xl mx-auto mt-3 px-6">
+                <h2 className="text-3xl font-extrabold text-gray-800 mb-6">
+                    About Us
+                </h2>
 
-export default About
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                    Welcome to our platform, where we combine innovation, design, and functionality to bring you top-tier digital experiences. Our mission is to provide you with the latest trends, breaking news, and insightful analysis, all crafted with a user-centric approach.
+                </p>
+
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                    Inspired by the clean and minimalist Nordic design, we aim to create an online environment that's not only visually stunning but also easy to navigate. Whether you're here for the latest stories or simply browsing, we strive to make your experience seamless and enjoyable.
+                </p>
+
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                    This website is designed with attention to detail, influenced by the creative works of{' '}
+                    <a
+                        className="text-blue-500 hover:text-blue-700 underline"
+                        href="https://themeforest.net/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Theme Site
+                    </a>{' '}
+                    and{' '}
+                    <a
+                        className="text-blue-500 hover:text-blue-700 underline"
+                        href="https://motionarray.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Theme Video
+                    </a>.
+                </p>
+
+                <p className="text-lg text-gray-700 leading-relaxed">
+                    Join us on this journey as we continue to bring fresh, relevant content to our audience. Our team is passionate about delivering quality information and enhancing your overall experience. We believe in the power of design to make the complex simple and engaging.
+                </p>
+            </div>
+        </section>
+    );
+};
+
+export default About;
